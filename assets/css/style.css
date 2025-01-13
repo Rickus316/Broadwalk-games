@@ -5,7 +5,8 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #416a8e; /* blue */
+    --primary-color: #416a8e;
+    /* blue */
 }
 
 /* Global styles */
@@ -18,7 +19,7 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color); 
+    color: var(--primary-color);
 }
 
 .sub-heading-color {
@@ -27,7 +28,7 @@ h3 {
 
 /* grid visualization CSS for testing */
 
-.container,
+/*.container,
 .row {
     border: 2px solid black;
 }
@@ -35,4 +36,4 @@ h3 {
 .col-12 {
     border: 2px solid white;
     background-color: lightslategray;
-}
+} */
