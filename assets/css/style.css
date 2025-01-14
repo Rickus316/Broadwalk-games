@@ -34,6 +34,24 @@ h3 {
     margin-bottom: 2rem;
 }
 
+/* Nav */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px
+}
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
+/* grid visualization CSS for testing */
+
 /* Navbar */
 
 #navbar {
