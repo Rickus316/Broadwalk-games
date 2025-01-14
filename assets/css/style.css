@@ -92,6 +92,38 @@ h2 {
     border: none;
 }
 
+/* Footer / contact */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -114,6 +146,7 @@ h2 {
         min-height: 191px
     }
 }
+
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
 
@@ -125,6 +158,7 @@ h2 {
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
@@ -133,6 +167,7 @@ h2 {
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
+
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
